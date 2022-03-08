@@ -8,24 +8,24 @@
     margin :0% auto;
     width: 500px;
     background-color: #161D6F;
-    height: 950px;
+    height: 850px;
     
 }
 .header-profile {
     margin:auto;
-    background-color: #161D6F;
-    height: 250px;
+   
+    height: 130px;
     width: 450px;
     text-align: center;
     
 }
 
 .image-logo {
-    height: 53%;
+    height: 100%;
     width: 30%;
     border-radius: 80px;
    position: relative;
-    top: 75%;
+    top: 55%;
     z-index: 2;
     box-shadow: 1px 1px 1px #ccc;
     -moz-box-shadow: 1px 8px 5px #ccc;
