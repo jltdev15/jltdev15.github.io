@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:wght@500&display=swap');*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile {
+    margin :0% auto;
+    width: 500px;
+    background-color: #161D6F;
+    height: 950px;
+    
+}
+.header-profile {
+    margin:auto;
+    background-color: #161D6F;
+    height: 250px;
+    width: 450px;
+    text-align: center;
+    
+}
+
+.image-logo {
+    height: 53%;
+    width: 30%;
+    border-radius: 80px;
+   position: relative;
+    top: 75%;
+    z-index: 2;
+    box-shadow: 1px 1px 1px #ccc;
+    -moz-box-shadow: 1px 8px 5px #ccc;
+    -webkit-box-shadow: 1px 8px 5px #ccc;
+    -khtml-box-shadow: 1px 10px 5px #ccc;
+}
+.mid-profile {
+    margin:auto;
+    /* background-color: #000000;
+    background-image: linear-gradient(270deg, ##161D6F 10%, #ffffff 10%); */
+    background-color: ghostwhite;
+    height: 270px;
+    width: 450px;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.mid-profile h2 {
+    padding-top: 20%;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 0.3rem;
+    color: #161D6F;
+    
+}
+.mid-profile h3 {
+    color: #8c9cb1;
+    letter-spacing: 0.2rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+}
+.mid-profile h5 {
+    color: #161D6F;
+    letter-spacing: 0.1rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+}
+.btnfollow {
+    padding: 2% 15%;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: #161D6F;
+    color: ghostwhite;
+    border-radius: 25px;
+    
+}
+.btnfollow:hover{
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+.skills {
+    margin:auto;
+    background-color: #bde2f5;
+    padding-top: 10px;
+    height: 310px;
+    width: 450px;
+    font-family: 'Roboto', sans-serif;
+}
+.skills p {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.container {
+    width: 100%;
+   padding-left: 10px;
+   margin-bottom: 10px;
+}
+.skills-text {
+    text-align: right;
+    padding: 2% 1%;
+    color: ghostwhite;
+}
+.html {
+    width: 90%; 
+
+    background-color: #04AA6D;
+}
+.css {
+    width: 89%; 
+    background-color: #867AE9;
+}
+.javascript {
+    width: 60%; 
+    background-color: #2196F3;
+}
+.react {
+    width: 50%; 
+    background-color: dimgrey;
+}
+footer {
+    background-color: ghostwhite;
+    margin:auto;
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    width: 450px;
+}
+/* social icons */
+.fa {
+    padding: 15px;
+    font-size: 2rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+    border-radius: 30px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
