@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Lobster&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+   
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    letter-spacing: rem;
+    padding: 2% 0;
+}
+#container {
+    width: 50%;
+    margin: 5% auto;
+    
+  
+}
+.main-panel {
+    display: flex; 
+    box-shadow: 5px 10px 20px #888888; 
+    border-radius: 20px;
+}
+
+/* Left Panel */
+.left-panel {
+    text-align: center;
+    flex: 50%;
+    background-color: rgb(234, 238, 238);
+    padding-bottom: 5%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
+  
+}
+.left-panel a {
+    font-family: 'MuseoModerno', cursive;
+    text-decoration: none;
+    color: black;
+}
+.left-panel p  {
+    font-family: 'MuseoModerno', cursive;
+    text-decoration: none;
+    color: black;
+}
+.social-icons{
+    font-size: 2rem;
+    padding: 3% 5%;
+}
+.social-icons:hover{
+    color:tomato ;
+    cursor: pointer;
+}
+input[type=text], input[type=password] {
+    
+    width: 65%;
+    padding: 7px 10px 10px;
+    margin: 5px 1px;
+    color: rgb(71, 71, 71);
+    font-family: 'Roboto', sans-serif;
+    border-style: none;
+}
+.btn {
+    width: 50%;
+    padding: 5% 5%;
+    border-radius: 100px;
+    background-color: tomato;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+.right-panel {
+    flex: 50%;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: tomato;
+    
+}
+h1 {
+    margin: 15% 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    
+}
+.right-panel p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+@media (max-width: 1280px){
+    #container {
+        width: 80%;
+        margin: 5% auto;
+        
+      
+    }
+}

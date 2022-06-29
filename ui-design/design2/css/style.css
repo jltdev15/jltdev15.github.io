@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Lobster&family=Ubuntu:wght@500&display=swap');
+body {
+  background: #F9F3DF;
+
+
+}
+#container {
+    margin: 100px auto;
+    width: 30%;
+    background:#fff ;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    box-shadow: 5px 1px 20px #888888;
+    
+   
+}
+.loginpage-header {
+    text-align: center;
+    padding: 5% 0% 10%;
+    font-family: 'Lobster', cursive;
+}
+.login-body {
+    text-align: center;
+}
+input {
+    width: 65%;
+    padding: 7px 1px 10px;
+    margin: 10px 1px;
+    color: rgb(71, 71, 71);
+    font-size: 1.2rem;
+  
+}
+input[type=text], input[ type=password]{
+    padding: 5px 5px;
+}
+
+/* social media login */
+
+h5 {
+    font-family: sans-serif;
+    margin: 10px auto;
+    color: rgb(71, 71, 71);
+    text-align: center;
+    font-size: 1rem;
+    max-width: 65%;
+    position: relative;
+  }
+  h5:before {
+    content: "";
+    display: block;
+    width: 45%;
+    height: 2px;
+    background: #c0baa8;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    opacity: 100%;
+  }
+  h5:after {
+    content: "";
+    display: block;
+    width:45%;
+    height: 2px;
+    background: #c0baa8;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    opacity: 100%
+  }
+
+  /* Social Login  */
+  .social-links {
+    text-align: center;
+    display: block;
+    padding: 2% 2% 10%;
+    
+  }
+  .social-links a {
+      width: 65%;
+      color: #f7edd2;
+      font-family: 'Hind', sans-serif;
+      
+  }
+  .icons{
+      padding: 15px;
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+  }
+  .icons:hover {
+      opacity: 0.7;
+    
+  }
+.fas-facebook {
+    background: #4267B2;
+    
+}
+.fas-twitter {
+    background: #1DA1F2;
+}
+.fas-google {
+    background: #db4a39;
+}
+
+/* Responsive */
+@media (max-width: 1280px){
+
+    #container {
+        width: 80%;
+        margin: 50px auto;
+    }
+}
