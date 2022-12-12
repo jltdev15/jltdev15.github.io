@@ -878,7 +878,7 @@ button:hover {
   margin-bottom:0;
 }
 
-@media (max-width: 320px){
+@media (max-width: 600px){
   .toggle__button {
     display: flex;
     margin-top: 0.6rem;
