@@ -19,12 +19,17 @@ body {
   font-size: 2.5rem;
   margin: 0rem 5rem;
 }
+.brand-title a {
+  text-decoration: none;
+  color: white;
+}
 .brand__title span {
   font-weight: 600;
+  
 }
 
 .nav-links ul {
-  margin: 0px 5rem;
+  margin: 0px 2rem;
   padding: 0;
   display: flex;
 }
@@ -37,7 +42,7 @@ body {
   color: white;
   padding: 1.5rem;
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .nav-links li a:hover {
   background-color: #555;
@@ -322,6 +327,61 @@ body {
 }
 
 /* Services Offered */
+.services {
+  background-color: #333;
+  padding: 5rem 0;
+}
+.services__container {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #ffffff;
+
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  justify-items: center;
+  column-gap: 10px;
+  color: rgb(0, 0, 0);
+  padding: 50px 0;
+
+} 
+.service__title {
+  /* background-color: #08265c; */
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 3rem;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.col {
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  display: flex;
+}
+.col img {
+  width: 300px;
+  height: auto;
+  align-self: center;
+  border-radius: 12px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.3);
+}
+.col p {
+  padding: 0 30px;
+  text-align: justify;
+}
+.col a {
+  align-self: center;
+  background-color: #2554ac;
+  width: 50%;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+}
 
 
 /* Reviews */
@@ -341,6 +401,7 @@ body {
   font-weight: 500;
   font-size: 3rem;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .review-panel {
@@ -442,7 +503,7 @@ h4 {
   font-size: 3rem;
   padding-bottom: 30px;
   color: #fff;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 
   
 }
@@ -905,7 +966,17 @@ button:hover {
   
     font-size: 1rem;
 
+    
   }
+
+
+
+  /* Services */
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+  
+  } 
 
 /* My Team */
 
